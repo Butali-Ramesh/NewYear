@@ -1,0 +1,49 @@
+ *
+ {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+ }
+
+ .container
+ {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://e0.pxfuel.com/wallpapers/714/345/desktop-wallpaper-calming-background-luxury-calm-peaceful-relaxing.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+ }  
+
+ .content
+ {  padding-left: 35%;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #fff;
+ }
+
+
+ .content h1
+ {
+    font-size: 64px;
+ }
+
+ .launch-time
+ {
+    display: flex;
+ }
+
+ .launch-time div{
+    flex-basis: 100px;
+ }
+
+ .launch-time div p{
+    font-size: 60px;
+    margin-bottom: 14px;
+ }
+ .launch-time div span
+ {
+    margin-left: 5px;
+ }
